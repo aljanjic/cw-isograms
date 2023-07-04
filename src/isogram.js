@@ -6,8 +6,8 @@ function isogram(str = '') {
     const letter = str[i];
     const wordSlice = str.slice([i+1])
     if (wordSlice.indexOf(letter) !== -1) return false
-
   }
+  
   return true;
 }
 

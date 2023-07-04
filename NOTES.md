@@ -23,4 +23,4 @@ isIsogram "aba" = false
 - ✅ '"mama" should return false'
 - ✅ '"isogram" should return true'
 - ✅ '"isIsogrAm" should return false'
-- ⚠ '"" should return true'
+- ✅ '"" should return true'
