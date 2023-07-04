@@ -1,7 +1,7 @@
 const isogram = require('./isogram');
 
 describe('isogram', () => {
-  it('should return hello', () => {
-    expect(hello()).toBe('hello');
+  it('"Dermatoglyphics" should return true', () => {
+    expect(isogram("Dermatoglyphics")).toBe(true);
   });
 });
