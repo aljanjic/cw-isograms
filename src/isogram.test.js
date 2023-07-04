@@ -12,4 +12,8 @@ describe('isogram', () => {
   it('"isogram" should return true', () => {
     expect(isogram("isogram")).toBe(true);
   });
+
+  it('"isIsogrAm" should return false', () => {
+    expect(isogram("isIsogrAm")).toBe(false);
+  });
 });

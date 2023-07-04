@@ -22,5 +22,5 @@ isIsogram "aba" = false
 - ✅  '"Dermatoglyphics" should return true'
 - ✅ '"mama" should return false'
 - ✅ '"isogram" should return true'
-- ⚠ '"isIsogrAm" should return false'
+- ✅ '"isIsogrAm" should return false'
 - ⚠ '"" should return true'
