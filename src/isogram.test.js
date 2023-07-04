@@ -1,6 +1,6 @@
-const hello = require('./hello');
+const isogram = require('./isogram');
 
-describe('hello', () => {
+describe('isogram', () => {
   it('should return hello', () => {
     expect(hello()).toBe('hello');
   });
