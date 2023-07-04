@@ -19,8 +19,8 @@ isIsogram "aba" = false
 
 ## Plans
 
-- ⚠ '"Dermatoglyphics" should return true'
-- ⚠ '"mama" should return false'
+- ✅  '"Dermatoglyphics" should return true'
+- ✅ '"mama" should return false'
 - ⚠ '"isogram" should return true'
 - ⚠ '"isIsogrAm" should return false'
 - ⚠ '"" should return true'
