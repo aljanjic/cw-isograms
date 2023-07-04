@@ -8,4 +8,8 @@ describe('isogram', () => {
   it('"mama" should return false', () => {
     expect(isogram("mama")).toBe(false);
   });
+
+  it('"isogram" should return true', () => {
+    expect(isogram("isogram")).toBe(true);
+  });
 });
